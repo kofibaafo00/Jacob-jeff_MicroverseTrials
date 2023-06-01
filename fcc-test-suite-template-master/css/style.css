@@ -6,10 +6,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color:white;
+}
+
+#header-img{
+  width:12vw;
+  height:10vh;
 }
 
 body {
-  background-color: #eee;
+  background-color: #020426;
   font-family: 'Lato', sans-serif;
 }
 
@@ -22,7 +28,7 @@ li {
 }
 
 a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -57,7 +63,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: #020426;
 }
 
 @media (max-width: 600px) {
